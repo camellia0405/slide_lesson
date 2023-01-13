@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>複合スライドショー</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>複合スライドショー</h1>
+    <div id="slide_area">
+        <div id="main">
+            <img id="img_main" src="./img/image01.jpg" alt="メイン画像">
+        </div>
+        <div class="toolbar2">
+            <div class="nav">
+                <div id="prev"></div>
+                <span id="page"></span>
+                <div id="next"></div>
+            </div>
+        </div>
+        <div class="thumb_area">
+            <ul>
+                <li><img src="./img/image01.jpg" id="img1" class="thumb" data-image="./img/image01.jpg" alt="サムネイル画像1"></li>
+                <li><img src="./img/image02.jpg" id="img2" class="thumb" data-image="./img/image02.jpg" alt="サムネイル画像2"></li>
+                <li><img src="./img/image03.jpg" id="img3" class="thumb" data-image="./img/image03.jpg" alt="サムネイル画像3"></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/slide2.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data属性を使用したスライドショー</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>data属性を使用したスライドショー</h1>
+    <div id="slide_area">
+        <div id="main">
+            <img id="img_main" src="./img/image01.jpg" alt="メイン画像">
+        </div>
+        <div class="thumb_area">
+            <ul>
+                <li><img src="./img/image01.jpg" class="thumb" data-image="./img/image01.jpg" alt="サムネイル画像1"></li>
+                <li><img src="./img/image02.jpg" class="thumb" data-image="./img/image02.jpg" alt="サムネイル画像2"></li>
+                <li><img src="./img/image03.jpg" class="thumb" data-image="./img/image03.jpg" alt="サムネイル画像3"></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/thumb.js"></script>
+</body>
+</html>
